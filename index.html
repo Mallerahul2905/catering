@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0;
+        }
+
+        .nav {
+            display: flex;
+            width: 100%;
+            height: 8vh;
+            background-color: whitesmoke;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            box-shadow: 2px 0px 5px white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .child1 {
+            margin-left: 3vh;
+        }
+
+        .child2 {
+            display: flex;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        .img1 {
+            position: relative;
+        }
+
+        img {
+            height: 90vh;
+            width: 100%;
+
+        }
+
+        .p1 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 20px;
+            font-family: monospace;
+            font-size: 2rem;
+        }
+
+        .section2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        #img2 {
+            height: 100vh;
+            width: 100%;
+            padding: 5px;
+            margin: 20px;
+            margin-left: 5vw;
+        }
+
+        #p1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-top: 10vh;
+        }
+
+        #p2 {
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.2rem;
+            letter-spacing: 0.5vw;
+            text-align: center;
+            padding: 10px;
+            margin-top: 3vh;
+        }
+
+        #p3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1rem;
+            padding: 7px;
+            margin-top: 2vh;
+            line-height: 4vh;
+            margin-right: 2vw;
+            letter-spacing: 0.1vw;
+            word-spacing: 0.5vw;
+        }
+
+        .class2 {
+            display: flex;
+            gap: 10vw;
+
+        }
+
+        .maindiv {
+            margin: 50px;
+            margin-top: 1vh;
+            padding: 1vw;
+        }
+
+        #menu {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            padding: 1vh;
+            margin-top: 3vh;
+        }
+
+        .c12 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 1vw;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0.5vw;
+        }
+
+        .d21 {
+            font-size: 16;
+            font-family: Times, serif;
+            margin-left: 1vw;
+            padding: 1vw;
+        }
+
+        #img3 {
+            margin-bottom: 1rem;
+            margin-top: 5vh;
+            margin-left: 2vw;
+        }
+        .contact1{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #Contact{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:200;
+            padding: 1rem;
+        }
+        #we{
+            margin-left: 10px;
+            font-size:1rem ;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 0.5rem;
+        }
+        #New{
+            margin-left: 0.8rem;
+            font-size:1.5rem ;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            color: lightcoral;
+        }
+        #york{
+            margin-left:10px ;
+            font-size: 1rem;
+            padding: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        input{
+            width: 90%;
+            padding: 0.8rem;
+            margin: 0.8rem;
+            border: none;
+            border-bottom: 1px solid ;
+        }
+        .Rahul{
+            height: 10vh;
+            width: 100%;
+            background: lightgray;
+        }
+        #Rahul{
+            text-align: center;
+            font-size: 1rem;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="child1">Gourmet au Catering</div>
+        <div class="child2">
+            <p>About</p>
+            <p>Menu</p>
+            <p>Contact</p>
+        </div>
+    </nav>
+    <div class="img1"><img src="./burger.jpg" alt="">
+        <p class="p1">Le Catering</p>
+    </div>
+    <div class="section2"><img src="./table1.jpg" alt="" id="img2">
+        <div>
+            <p id="p1">About Catering </p>
+
+            <p id="p2">Tradition since 1889</p>
+            <p id="p3">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+                adipiscing elit
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute
+                iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use
+                seasonal ingredients.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
+                Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="class2">
+        <div class="maindiv">
+            <p id="menu">Our Menu</p>
+            <p class="c12">Bread Basket</p>
+            <p class="d21"> Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+
+            <p class="c12"> Honey Almond Granola with Fruits </p>
+            <p class="d21">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+
+            <p class="c12">Belgian Waffle</p>
+            <p class="d21"> Vanilla flavored batter with malted flour 7.50</p>
+
+
+            <p class="c12">Scrambled eggs</p>
+            <p class="d21"> Scrambled eggs, roasted red pepper and garlic, with green onions 7.50 </p>
+
+
+            <p class="c12">Blueberry Pancakes</p>
+            <p class="d21">With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div><img src="./tablesetting21.jpg" alt="" id="img3"></div>
+    </div>
+    <hr>
+    <div class="Contact1">
+        <p id="Contact">Contact</p>
+        <p id="we">We offer full-service catering for any event, large or small. We understand your needs and we will cater the
+            food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+            <p id="New">Catering Service, 42nd Living St, 43043 New York, NY</p>
+            <p id="york">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    </div>
+    <input type="text" name="" id="" placeholder="Name">
+    <input type="text" name="" id="" placeholder="How many people" >
+    <input type="date" name="" id="">
+    <input type="text" placeholder="Message\Special requirements" >
+    <button style="padding: 10px;margin-left:10px;margin:1rem;">SEND MESSAGE</button>
+    <div class="Rahul"><p id="Rahul">Powered by Malle Rahul Kumar Reddy</p></div>
+</body>
+
+</html>
